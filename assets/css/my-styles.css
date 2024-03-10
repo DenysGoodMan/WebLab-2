@@ -30,7 +30,7 @@ h1{
     margin: 0;
 }
 .header{
-    background-image: url(../ImgProject/header_img/G63.png);
+    background-image: url(../ImgProject/header_img/g63_g63.jpg);
     height: 1080px;
     max-width: 1920px;
     background-repeat: no-repeat;
@@ -144,7 +144,7 @@ h1{
     justify-content: space-between;
     background-color: #FFFFFF;
     align-items: center;
-    margin-bottom: 230px;
+    margin-bottom: 320px;
 }
 .header_title_left{
     display: flex;
@@ -181,30 +181,30 @@ h1{
  }
 .header_content{
     max-width: 750px;
-    margin: 12px;
+    margin: 25px;
 }
 .header_content p{
     margin-top: -2px;
 }
-.header_content h1{
+.header_content h1{    
     font-family: "Inter", sans-serif;
     font-weight: 820px;
     font-size: 48px;
     line-height: 55px;
     margin-bottom: 30px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .header_content span{
     font-family: "Inter", sans-serif;
     font-size: 32px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 h1 span{
     color: #000000;
     text-decoration: underline;
 }
 .header_content_button{
-    opacity: 0.7;
+    opacity: 0.9;
     font-size: 22px;
     line-height: 26px;
 }
@@ -217,11 +217,11 @@ h1 span{
     display: inline-block;
     max-width: 220px;
     height: 60px;
-    border: 1px solid #000000;
+    border: 1px solid rgb(129, 135, 140);
     padding: 16px 23px;
     border-radius: 50px;
     font-family: "Inter", sans-serif;
-    background-color: rgb(0, 0, 0);
-    color: #cbcbcb;
-    margin-right: 60px;
+    background-color: rgb(138, 145, 151);
+    color:rgb(43, 45, 47) ;
+    margin-right: 40px;
 }
