@@ -698,7 +698,7 @@ ol{
     height: 400px;
     width: 1320px;
     position: absolute;
-    background-color: black;
+    background-color: rgb(80, 80, 80);
     margin: 0px 0px 0px 600px ;
 }
 .car_service-info-text{
@@ -710,61 +710,106 @@ ol{
 }
 .footer{
     max-width: 1920px; 
-    min-width: 1920px; 
+    min-width: 1920px;
+    height: 500px; 
     margin: 0 auto;
     background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
     
     
 }
 .footer_head-box{
     display: flex;
-    background-color: rgb(100, 100, 100);
+   
 }
 .footer_head{
     text-align: center;
-    margin-left: 917px;
+    margin: 40px 0px 40px 917px;
 }
 
 .footer_head h2{
     color: rgb(255, 255, 255);
+    font-size: 23px;
 }
 .footer_box{
     display: flex;
     flex-direction: row;
     color: white;
+    
 }
 .footer_left{
     width: 480px;
-    background-color: rgb(100, 100, 100);
-}
-.footer_left-shopping{
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 25px;
+
     
 }
+.footer_h1_head{
+    margin: 0px 0px 15px 100px;
+    font-size: 25px;
+}
+.footer_left-shopping{
+    margin-left: 100px;
+}
 .footer_info-text{
+    font-size: 22px;
     display: flex;
     flex-direction: column;
     color: white;
+    line-height: 32px;
+  
 }
 .footer_info-text a{
     color: #FFFFFF;
 }
 .footer_center_1{
     width: 480px;
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(0, 0, 0);
 }
 .footer_center-offers{
+    margin-left: 100px;
 }
 .footer_center_2{
     width: 480px;
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(0, 0, 0);
 }
 .footer_center-service{
-
+    margin-left: 100px;
 }
 .footer_right{
     width: 480px;
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(0, 0, 0);
 }
 .footer_left-brands{
-
+    margin-left: 100px;
+}
+.hr-style{
+    margin: 35px 35px 0px 35px;
+}
+.footer_info_bottom{
+    display: flex;
+    min-width: 800px;
+    align-items: center;
+}
+.menu_bottom{
+    margin: 15px -20px 0px 70px;
+    font-size: 22px;
+   
+}
+.menu_bottom a{
+    color: #ffffff;
+    opacity: 0.7;
+    padding-bottom: 3px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.5s;
+}
+.menu_bottom a:hover{
+    opacity: 1;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+.bottom_icon{
+    margin: 15px 0px 0px 100px;
+}
+.bottom_icon img{
+    margin-right: 20px;
 }
